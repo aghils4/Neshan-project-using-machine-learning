@@ -15,10 +15,15 @@ Streets graph file for use in routing
 The file required to predict the time of crossing each street, which includes the following columns:
 
 edge_id: Number of each street
+
 length : The size of each street
+
 minute : Time to start moving
+
 speed : Street crossing speed based on other conditions
+
 is_holiday : Holiday or non-holiday day
+
 weather : Weather conditions
 
 # imputed data.ipynb :
